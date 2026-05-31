@@ -19,3 +19,36 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+header {
+    width: 100%; 
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px 0; 
+}
+
+.settings {
+    margin-right: 20px;
+}
+
+header div p {
+    color: var(--secondaryText);
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+}
+
+header div img {
+    margin-bottom: -10px;
+}
+
+h1 {
+    color: var(--mainText);
+    font-size:xx-large;
+}
+
+span {
+    display: block;
+    margin-left: 50px;
+}
