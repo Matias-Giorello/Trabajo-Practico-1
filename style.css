@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+  --mainBackground: #12131A;
+  --textareaBackground: #1C1F2A;
+  --mainText: #F2F2F7;
+  --secondaryText:#B4B7C9;
+  --progressColor: #D19BFF;
+}
+
+body {
+    background-color: var(--mainBackground);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
