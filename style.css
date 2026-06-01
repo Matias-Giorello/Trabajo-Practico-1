@@ -30,6 +30,8 @@ header {
 
 .settings {
     margin-right: 20px;
+    cursor: pointer;
+    border-radius: 100px;
 }
 
 header div p {
@@ -45,7 +47,7 @@ header div img {
 
 h1 {
     color: var(--mainText);
-    font-size:xx-large;
+    font-size: 280%;
 }
 
 span {
@@ -107,4 +109,59 @@ input[type="checkbox"]:hover {
 
 .pCheckbox3 {
     margin-left: 30%;
+}
+
+.summarySection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    background-image: url(./assets/images/backgroundCard1.png);
+    background-size: cover;
+    background-position: center;
+    width: 12.43%;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 0.7%;
+}
+
+.card2 {
+    background-image: url(./assets/images/backgroundCard2.png);
+    background-size: cover;
+    background-position: center;
+    width: 12.43%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card3 {
+    background-image: url(./assets/images/backgroundCard3.png);
+    background-size: cover;
+    background-position: center;
+    width: 12.43%;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 0.7%;
+}
+
+.card1 h2 {
+    font-size: 300%;
+    margin-top: 10%;
+}
+
+.card2 h2 {
+    font-size: 300%;
+    margin-top: 10%;
+}
+
+.card3 h2 {
+    font-size: 300%;
+    margin-top: 10%;
+}
+
+.summarySection p {
+    margin-top: 10%;
 }
