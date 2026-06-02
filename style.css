@@ -147,21 +147,70 @@ input[type="checkbox"]:hover {
     margin-left: 0.7%;
 }
 
-.card1 h2 {
+.summarySection h2 {
     font-size: 300%;
     margin-top: 10%;
-}
-
-.card2 h2 {
-    font-size: 300%;
-    margin-top: 10%;
-}
-
-.card3 h2 {
-    font-size: 300%;
-    margin-top: 10%;
+    margin-left: 5%;
 }
 
 .summarySection p {
     margin-top: 10%;
+    margin-left: 5%;
+}
+
+.letterDensitySection h2 {
+    margin-bottom: 2%;
+}
+
+
+.letterDensitySection {
+    color: var(--secondaryText);
+    width: 40%;
+    margin-top: 2%;
+}
+
+.letterDensitySection div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.letterDensitySection p {
+    display: inline;
+}
+
+
+meter {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 80%;
+    height: 18px;
+    background-color: #2A2D3A;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+
+meter::-webkit-meter-bar {
+    background-color: #2A2D3A;
+    border: none;
+    border-radius: 16px;
+}
+
+meter::-webkit-meter-optimum-value {
+    background-color: var(--progressColor);
+    border-radius: 16px;
+}
+
+meter::-moz-meter-bar {
+    background-color: var(--progressColor);
+    border-radius: 16px;
+}
+
+meter::-webkit-meter-even-less-good-value,
+meter::-webkit-meter-suboptimum-value,
+meter::-webkit-meter-optimum-value {
+    background: var(--progressColor);
 }
