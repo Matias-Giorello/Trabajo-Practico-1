@@ -229,3 +229,29 @@ footer p {
     width: 95px;
     cursor: pointer;
 }
+
+@media (max-width: 718px) {
+    .inputSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputSection p {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .summarySection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .summarySection div {
+        width: 40%;
+    }
+
+    .letterDensitySection div {
+        margin-bottom: 20px;
+    }
+}
